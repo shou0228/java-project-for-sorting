@@ -12,6 +12,7 @@ import java.util.Comparator;
  *
  * @author shou
  */
+// 做名字比較
 class CompareName implements Comparator< Student> {
 
     @Override
@@ -24,7 +25,7 @@ class CompareName implements Comparator< Student> {
         return o1.name.compareTo(o2.name);
     }
 }
-
+// 做ID比較
 class CompareID implements Comparator< Student> {
 
     @Override
@@ -32,7 +33,7 @@ class CompareID implements Comparator< Student> {
         return o1.id - o2.id;
     }
 }
-
+// 做成績比較
 class CompareGrade implements Comparator< Student> {
 
     @Override
@@ -73,7 +74,7 @@ public class Student {
         Gradesort(students);
 
     }
-
+// 比較後做排序
     public static void Namesort(Student stu[]) {
         System.out.println("原排序:");
         display(stu);
