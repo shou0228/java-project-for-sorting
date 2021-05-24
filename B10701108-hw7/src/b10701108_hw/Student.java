@@ -78,7 +78,7 @@ public class Student {
     public static void Namesort(Student stu[]) {
         System.out.println("原排序:");
         display(stu);
-        System.out.println("---- after sorting name --------");
+        System.out.println("---- after sorting name --------"); //分隔線
         System.out.println("照名字排序:");
         CompareName comp = new CompareName();
         Arrays.sort(stu, comp);
