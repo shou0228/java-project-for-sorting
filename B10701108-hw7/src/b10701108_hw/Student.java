@@ -10,7 +10,7 @@ import java.util.Comparator;
  */
 /**
  *
- * @author 薛守程
+ * @author shou
  */
 class CompareName implements Comparator< Student> {
 
